@@ -1,0 +1,175 @@
+digraph{
+rankdir=RL
+node[shape=box style=filled fillcolor="#CCFFCC"] 
+"CEN.DC"
+"CEN.AK"
+"CEN.HI"
+"CEN.Northeast"
+"CEN.South"
+"CEN.USA"
+"CEN.West"
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"NDC.West"
+"NDC.Southeast"
+"NDC.USA"
+"NDC.Southwest"
+"NDC.Northeast"
+node[shape=box style="filled,rounded" fillcolor="#EEEEEE"] 
+"CEN.NM\nNDC.NM"
+"CEN.AZ\nNDC.AZ"
+"CEN.TN\nNDC.TN"
+"CEN.MA\nNDC.MA"
+"CEN.IN\nNDC.IN"
+"CEN.MD\nNDC.MD"
+"CEN.CT\nNDC.CT"
+"CEN.WA\nNDC.WA"
+"CEN.MI\nNDC.MI"
+"CEN.VA\nNDC.VA"
+"CEN.CA\nNDC.CA"
+"CEN.NY\nNDC.NY"
+"CEN.MS\nNDC.MS"
+"CEN.ID\nNDC.ID"
+"CEN.MN\nNDC.MN"
+"CEN.NJ\nNDC.NJ"
+"CEN.UT\nNDC.UT"
+"CEN.DE\nNDC.DE"
+"CEN.NC\nNDC.NC"
+"CEN.SC\nNDC.SC"
+"CEN.AR\nNDC.AR"
+"CEN.TX\nNDC.TX"
+"CEN.OH\nNDC.OH"
+"CEN.GA\nNDC.GA"
+"CEN.KS\nNDC.KS"
+"CEN.ND\nNDC.ND"
+"CEN.NE\nNDC.NE"
+"CEN.KY\nNDC.KY"
+"CEN.MT\nNDC.MT"
+"CEN.NV\nNDC.NV"
+"CEN.PA\nNDC.PA"
+"CEN.Midwest\nNDC.Midwest"
+"CEN.SD\nNDC.SD"
+"CEN.WI\nNDC.WI"
+"CEN.IA\nNDC.IA"
+"CEN.RI\nNDC.RI"
+"CEN.IL\nNDC.IL"
+"CEN.OR\nNDC.OR"
+"CEN.VT\nNDC.VT"
+"CEN.OK\nNDC.OK"
+"CEN.WV\nNDC.WV"
+"CEN.CO\nNDC.CO"
+"CEN.MO\nNDC.MO"
+"CEN.NH\nNDC.NH"
+"CEN.LA\nNDC.LA"
+"CEN.ME\nNDC.ME"
+"CEN.AL\nNDC.AL"
+"CEN.WY\nNDC.WY"
+"CEN.FL\nNDC.FL"
+edge[arrowhead=none style=dotted color="#0000FF" constraint=false penwidth=1]
+"CEN.West" -> "NDC.Southwest"
+"CEN.West" -> "NDC.USA"
+"CEN.South" -> "NDC.Southwest"
+"CEN.South" -> "NDC.Northeast"
+"CEN.South" -> "NDC.USA"
+edge[arrowhead=normal style=solid color="#000000" constraint=true penwidth=1]
+"CEN.PA\nNDC.PA" -> "CEN.Northeast"
+"CEN.GA\nNDC.GA" -> "NDC.Southeast"
+"CEN.HI" -> "CEN.West"
+"CEN.TN\nNDC.TN" -> "NDC.Southeast"
+"CEN.RI\nNDC.RI" -> "CEN.Northeast"
+"CEN.NV\nNDC.NV" -> "NDC.West"
+"CEN.FL\nNDC.FL" -> "NDC.Southeast"
+"NDC.West" -> "NDC.USA"
+"CEN.MT\nNDC.MT" -> "NDC.West"
+"CEN.South" -> "CEN.USA"
+"CEN.MA\nNDC.MA" -> "CEN.Northeast"
+"CEN.MD\nNDC.MD" -> "CEN.South"
+"CEN.SC\nNDC.SC" -> "NDC.Southeast"
+"CEN.MO\nNDC.MO" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.ME\nNDC.ME" -> "CEN.Northeast"
+"CEN.AK" -> "CEN.West"
+"CEN.MI\nNDC.MI" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.NY\nNDC.NY" -> "CEN.Northeast"
+"CEN.DE\nNDC.DE" -> "CEN.South"
+"CEN.ND\nNDC.ND" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.CO\nNDC.CO" -> "NDC.West"
+"CEN.NM\nNDC.NM" -> "CEN.West"
+"CEN.OR\nNDC.OR" -> "NDC.West"
+"CEN.MD\nNDC.MD" -> "NDC.Northeast"
+"CEN.OK\nNDC.OK" -> "NDC.Southwest"
+"CEN.OK\nNDC.OK" -> "CEN.South"
+"CEN.LA\nNDC.LA" -> "NDC.Southeast"
+"CEN.DE\nNDC.DE" -> "NDC.Northeast"
+"CEN.WV\nNDC.WV" -> "NDC.Southeast"
+"CEN.ID\nNDC.ID" -> "NDC.West"
+"CEN.WI\nNDC.WI" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.AZ\nNDC.AZ" -> "CEN.West"
+"NDC.Northeast" -> "NDC.USA"
+"CEN.CT\nNDC.CT" -> "CEN.Northeast"
+"CEN.IN\nNDC.IN" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.NE\nNDC.NE" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.TX\nNDC.TX" -> "NDC.Southwest"
+"CEN.IL\nNDC.IL" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.AZ\nNDC.AZ" -> "NDC.Southwest"
+"CEN.KY\nNDC.KY" -> "NDC.Southeast"
+"CEN.IA\nNDC.IA" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.WY\nNDC.WY" -> "NDC.West"
+"CEN.VT\nNDC.VT" -> "CEN.Northeast"
+"CEN.CA\nNDC.CA" -> "NDC.West"
+"CEN.TX\nNDC.TX" -> "CEN.South"
+"NDC.Southeast" -> "NDC.USA"
+"CEN.NH\nNDC.NH" -> "CEN.Northeast"
+"CEN.NC\nNDC.NC" -> "NDC.Southeast"
+"NDC.Southwest" -> "NDC.USA"
+"CEN.MS\nNDC.MS" -> "NDC.Southeast"
+"CEN.UT\nNDC.UT" -> "NDC.West"
+"CEN.DC" -> "CEN.South"
+"CEN.Midwest\nNDC.Midwest" -> "NDC.USA"
+"CEN.NM\nNDC.NM" -> "NDC.Southwest"
+"CEN.AR\nNDC.AR" -> "NDC.Southeast"
+"CEN.WA\nNDC.WA" -> "NDC.West"
+"CEN.KS\nNDC.KS" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.West" -> "CEN.USA"
+"CEN.SD\nNDC.SD" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.VA\nNDC.VA" -> "NDC.Southeast"
+"CEN.NJ\nNDC.NJ" -> "CEN.Northeast"
+"CEN.MN\nNDC.MN" -> "CEN.Midwest\nNDC.Midwest"
+"CEN.AL\nNDC.AL" -> "NDC.Southeast"
+"CEN.OH\nNDC.OH" -> "CEN.Midwest\nNDC.Midwest"
+edge[arrowhead=normal style=solid color="#FF0000" constraint=true penwidth=1]
+"NDC.USA" -> "CEN.USA"
+"NDC.West" -> "CEN.West"
+"CEN.Northeast" -> "NDC.Northeast"
+"NDC.Southeast" -> "CEN.South"
+edge[arrowhead=normal style=dotted color="#000000" constraint=true penwidth=1]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC">CEN</TD> 
+ <TD>7</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC">NDC</TD> 
+ <TD>5</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#EEEEEE">comb</TD> 
+ <TD>49</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#0000FF">overlaps</font></TD> 
+ <TD>5</TD> 
+ </TR> 
+<TR> 
+ <TD><font color ="#000000">input</font></TD> 
+ <TD>64</TD> 
+ </TR> 
+<TR> 
+ <TD><font color ="#FF0000">inferred</font></TD> 
+ <TD>4</TD> 
+ </TR> 
+</TABLE> 
+ >] } 
+}
